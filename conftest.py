@@ -9,3 +9,8 @@ def text_for_tests():
 @pytest.fixture
 def list_for_tests():
     return [5, 4, 3, 'two', 'one', None]
+
+
+@pytest.fixture
+def set_for_tests():
+    return {5, 4, 3, 'two', 'one', None}
