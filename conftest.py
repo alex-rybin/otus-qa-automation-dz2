@@ -1,7 +1,7 @@
 import pytest
 
 
-@pytest.fixture
+@pytest.fixture(scope='module')
 def text_for_tests():
     return 'The quick brown fox jumps over the lazy dog'
 
